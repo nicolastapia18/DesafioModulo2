@@ -5,35 +5,149 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <title>Personal Portfolio</title>
     </head>
     <body>
-        <nav id="navbar">
-            <ul class="nav-list">
-                <li><a href="#welcome-section">Sobre Mi</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-        <section id="welcome-section" class="welcome-section">
-            <h1>Hola, soy Nico</h1>
-            <h2>desarrollador web full stack</h2>
-        </section>
-        <section id="projects" class="projects">
-            <h2>Estos son algunos de mis proyectos</h2>
-			<h1>No tengo proyectos finalizados aun...</h1>
-        </section>
-        <section id="contact" class="contact">
-            <h2>Contacto</h2>
-            <a href="https://www.outlook.com" id="profile-link" target="_blank"><i class="fas fa-at"> Email</i></a>
-            <a href="https://www.linkedin.com" id="profile-link" target="_blank"><i class="fab fa-linkedin-in"> Linkedin</i></a>
-            <a href="https://www.instagram.com" id="profile-link" target="_blank"><i class="fab fa-instagram"> Instagram</i></a>
-        </section>
-        <footer>
-          <p>
-            &copy; Creado para
-            <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="_blank">Argentina Programa</a>
-            </p>
-        </footer>
+        <!--header-->
+        <div class="row"> 
+            <div class="container">
+                <div class="logo">
+                    <img src="../../../assets/APLogo.png" id="logo">
+                </div>
+                <div class="redes">
+                    <a href="https://www.github.com/nicolastapia18" target="_blank"><img src="../../../assets/github.png" id="github"></a>
+                    <a href="https://www.linkedin.com/in/nicolas-tapia-73b740241" target="_blank"><img src="../../../assets/linkedin.png" id="linkedin"></a>
+                    <a href="https://www.instagram.com/nicootapiaa" target="_blank"><img src="../../../assets/instagram.png" id="instagram"></a>
+                    <a href="https://www.twitter.com/nicotapiaaa" target="_blank"><img src="../../../assets/twitter.png" id="twitter"></a>
+                    <button type="button" class="btn btn-outline-light">LOGIN</button>
+                </div>
+            </div>
+            <div class="col-12">
+                <img src="../../../assets/banner.png" class="img-fluid">
+            </div>
+        </div>
+        <!--about-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <img src="../../../assets/fotodeperfil.png" class="img-fluid" id="fotoperfil">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <p id="nombre">Tapia, Nicolás Guillermo</p>
+                <p>Full Stack Developer Jr.</p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                <span>
+                    <h1>Acerca de mi</h1>
+                    <p>Soy una persona decidida en lo que hace. Me considero bueno y muy capaz en la resolución de problemas. Con gran animo y dispuesto al trabajo en equipo. Siempre estoy en busqueda de nuevas oportunidades. Con gran ambicion de emprender y seguir aprendiendo en este mundo del desarrollo.</p>
+                </span>
+            </div>
+        </div>
+        <!--experience-->
+        <div class="row">
+            <h1>Experiencia Laboral</h1>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-11">
+                <ul>
+                    <li>
+                        <h1>Baiocco-Menardi (pasantia)</h1>
+                        <h3> - 08/2017 | 10/2017</h3>
+                    </li>
+                    <p>Puesto: Pasante</p>
+                    <p>Actividades realizadas:</p>
+                    <p>- Diagnostico y reparacion de dispositivos electronicos</p>
+                    <p>- Armado de computadoras</p>
+                    <p>- Instalacion de software y sistemas operativos</p>
+                </ul>
+            </div>
+        </div>
+        <!--education-->
+        <div class="row">
+            <h1>Educación</h1>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-11">
+                <ul>
+                    <li>
+                        <h1>Estudios Primarios</h1>
+                        <h3> - 2006 | 2011</h3>
+                    </li>
+                    <p>Institución: Instituto Pablo A. Pizzurno / Hernando, Cordoba</p>
+                    <li>
+                        <h1>Estudios Secundarios</h1>
+                        <h3> - 2012 | 2017</h3>
+                    </li>
+                    <p>Institución: Instituto Pablo A. Pizzurno / Hernando, Cordoba</p>
+                    <p>Titulo: Bachiller en economia y administración de empresas</p>
+                    <p>Institución: Instituto Pablo A. Pizzurno / Hernando, Cordoba</p>
+                    <li>
+                        <h1>Estudios Universitarios</h1>
+                        <h3> - 2018 | En Curso</h3>
+                    </li>
+                    <p>Institución: Universidad Nacional de Río Cuarto / Río Cuarto, Cordoba</p>
+                    <p>Carrera: Analista en sistemas y Licenciatura en computación</p>
+                </ul>
+            </div>
+        </div>
+        <!--skills-->
+        <div class="row">
+            <h1>Hard & Softs Skills</h1>
+        </div>
+        <!--proyects-->
+        <div class="row">
+            <h1>Proyectos</h1>
+            <div class="contenedor">
+                <div class="col-sm-12 col-md-7 col-lg-7 texto">
+                    <h2>Cronometro</h2>
+                    <p>Fecha de realización: 19/09/2022</p>
+                    <p>Se imita el funcionamiento de un cronometro convencional</p>
+                    <p>Presione la imagen para ver el proyecto...</p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 imagen">
+                    <a href=""><img src="../../../assets/cronometro.png" class="img-fluid imagen-proyecto"></a>
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 texto">
+                    <h2>Contador de palabras y caracteres</h2>
+                    <p>Fecha de realización: 20/09/2022</p>
+                    <p>Proyecto en el que se escribe un texto y se informa cuantas palabras y caracteres contiene el mismo</p>
+                    <p>Presione la imagen para ver el proyecto...</p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 imagen">
+                    <a href=""><img src="../../../assets/contador.png" class="img-fluid imagen-proyecto"></a>
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 texto">
+                    <h2>Generador de Contraseñas</h2>
+                    <p>Fecha de realización: 02/11/2022</p>
+                    <p>Se elije el formato que se desee que tenga la contraseña (mayúsculas, minúsculas, numeros, simbolos, cantidad de caracteres) y se generara la misma</p>
+                    <p>Presione la imagen para ver el proyecto...</p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 imagen">
+                    <a href=""><img src="../../../assets/contraseña.png" class="img-fluid imagen-proyecto"></a>
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 texto">
+                    <h2>Tetris</h2>
+                    <p>Fecha de realización: 03/12/2022</p>
+                    <p>Imitación del iconico juego de los 80s</p>
+                    <p>Presione la imagen para ver el proyecto...</p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 imagen">
+                    <a href=""><img src="../../../assets/tetris.png" class="img-fluid imagen-proyecto"></a>
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 texto">
+                    <h2>Portfolio</h2>
+                    <p>Fecha de realización: 10/12/2022</p>
+                    <p>Presentacion de mi persona donde se muestran mi experiencia, estudios, proyectos, entre otros</p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 imagen">
+                    <a href=""><img src="../../../assets/portfolio.png" class="img-fluid imagen-proyecto"></a>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="row">
+            <footer>
+                <p>Tapia Nicolas Guillermo | &copy; Argentina Programa 2022</p>
+                <p>Cordoba, Argentina</p>
+            </footer>
+        </div>
     </body>
 </html>
